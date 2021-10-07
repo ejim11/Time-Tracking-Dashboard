@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ejim11.github.io/Time-Tracking-Dashboard/)
 
 ## My process
 
@@ -48,7 +48,6 @@ Users should be able to:
 
 I learnt a lot about DOM manipulation and event handlers. i got accustomed to flexbox and its use cases.
 
-To see how you can add code snippets, see below:
 
 ```css
 .inner-heading {
@@ -72,9 +71,9 @@ monthly.addEventListener("click", function () {
 
 ### Continued development
 
-i would love to know more on DOM manipulation and event handler functions
+I would love to know more on DOM manipulation and event handler functions
 
-### Useful resources
+
 
 ## Author
 
