@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-html-css-and-javascript-A2O6bckqj](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-html-css-and-javascript-A2O6bckqj]
 - Live Site URL: [https://ejim11.github.io/Time-Tracking-Dashboard/]
 
 ## My process
