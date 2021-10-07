@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://ejim11.github.io/Time-Tracking-Dashboard/)
+- Live Site URL: [https://ejim11.github.io/Time-Tracking-Dashboard/]
 
 ## My process
 
