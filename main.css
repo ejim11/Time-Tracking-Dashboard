@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* general styling */
+body {
+  background-color: hsl(226, 43%, 10%);
+  padding: 1.5rem;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  /* color: #fff; */
+  color: rgba(204, 204, 209, 0.712);
+  text-decoration: none;
+}
+
+/* styling for mobile view */
+/* styling the profile of jeremy */
+.profile-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: hsl(235, 46%, 20%);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  background-color: hsl(235, 45%, 61%);
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.profile div {
+  width: 5rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+span {
+  color: rgb(204, 204, 209);
+  /* display: ; */
+}
+
+.daily a {
+  color: #fff;
+}
+
+.timeframe a:hover {
+  color: #fff !important;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.info-box {
+  background-color: hsl(235, 46%, 20%);
+  padding: 1rem;
+  margin-top: -1.3rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  /* margin-right: -2px; */
+}
+
+.info-box:hover {
+  background-color: hsl(246, 80%, 60%);
+}
+
+.inner-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-heading p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.inner-heading a svg {
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.timer p {
+  color: rgb(204, 204, 209);
+}
+
+.sections svg {
+  margin-top: -1rem;
+  align-self: flex-end;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* individual styling for the sections */
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+  background-color: hsl(43, 84%, 65%);
+}
+/* 
+@media all and (min-width: 1020px) {
+  .cover {
+    display: flex;
+    justify-content: center;
+  }
+  .activities {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+  }
+  .divider {
+    display: flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  }
+  .sections {
+    width: 12rem;
+  }
+
+  .profile-section {
+    flex-direction: column;
+  }
+} */
+
+/* styling for ipad pro and laptop view  */
+@media all and (min-width: 1020px) {
+  .cover {
+    display: flex;
+    padding: 4rem 4rem;
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .activities {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+  }
+
+  .divider {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  }
+
+  .sections {
+    width: 12rem;
+  }
+
+  .profile-section {
+    margin-right: 2rem;
+    width: 12rem;
+    align-self: stretch;
+    -webkit-align-self: stretch;
+  }
+  .timeframe {
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  }
+
+  .profile p {
+    margin-top: 2rem;
+  }
+
+  .attribution {
+    width: 100%;
+    color: rgba(204, 204, 209, 0.719);
+  }
+
+  .timer {
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  }
+
+  .timer p {
+    margin-top: 0.5rem;
+  }
+}
